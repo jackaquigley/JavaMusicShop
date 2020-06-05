@@ -5,11 +5,13 @@ public class InstrumentClass {
     private String name;
     private String description;
     private double sellPrice;
+    private double buyPrice;
 
-    public InstrumentClass(String name, String description, double sellPrice){
+    public InstrumentClass(String name, String description, double sellPrice, double buyPrice){
         this.name = name;
         this.description = description;
         this.sellPrice = sellPrice;
+        this.buyPrice = buyPrice;
     }
 
     public String getName(){
@@ -22,6 +24,10 @@ public class InstrumentClass {
 
     public double getSellPrice(){
         return this.sellPrice;
+    }
+
+    public double getBuyPrice(){
+        return this.buyPrice;
     }
 
 
