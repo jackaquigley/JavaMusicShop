@@ -6,12 +6,16 @@ public class InstrumentClass {
     private String description;
     private double sellPrice;
     private double buyPrice;
+    private boolean forSale;
+    private boolean secondHand;
 
-    public InstrumentClass(String name, String description, double sellPrice, double buyPrice){
+    public InstrumentClass(String name, String description, double sellPrice, double buyPrice, boolean forSale, boolean secondHand){
         this.name = name;
         this.description = description;
         this.sellPrice = sellPrice;
         this.buyPrice = buyPrice;
+        this.forSale = forSale;
+        this.secondHand = secondHand;
     }
 
     public String getName(){
@@ -28,6 +32,14 @@ public class InstrumentClass {
 
     public double getBuyPrice(){
         return this.buyPrice;
+    }
+
+    public boolean getForSale(){
+        return this.forSale;
+    }
+
+    public boolean getSecondHand(){
+        return this.secondHand;
     }
 
 

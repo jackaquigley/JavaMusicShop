@@ -12,7 +12,7 @@ public class GuitarTest {
     public void setUp(){
         guitar = new Guitar("Fender FA-125 Dreadnought WN",
                 "This is truly an artist's guitar. Authentic tones pour out of the dreadnought-shaped body. The Fender FA-125CE Dreadnought Electro Acoustic's nato carved neck provides a warmth to your resonance, complementing any genre you're in to. This is the perfect instrument to captivate your audience.", 99.99,
-        60.00);
+        60.00, true, false);
     }
 
     @Test
@@ -33,5 +33,15 @@ public class GuitarTest {
     @Test
     public void testGuitarHasBuyPrice() {
         assertEquals(60.00, guitar.getBuyPrice(), 0.1);
+    }
+
+    @Test
+    public void testGuitarForSale(){
+        assertEquals(true, guitar.getForSale());
+    }
+
+    @Test
+    public void testGuitarSecondHand(){
+        assertEquals(false,guitar.getSecondHand());
     }
 }
