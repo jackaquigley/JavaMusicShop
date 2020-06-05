@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="445c36b6-35e2-4726-9f65-4d9bcb364281" name="Default Changelist" comment="" />
+    <list default="true" id="445c36b6-35e2-4726-9f65-4d9bcb364281" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Guitar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/InstrumentClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/InstrumentClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/instruments/Guitar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/instruments/Guitar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/instruments/InstrumentClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/instruments/InstrumentClass.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +26,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ctzwoc06ixbb5EKShaad0fGXeg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="add_unversioned_files" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
@@ -35,7 +43,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.GuitarTest.testGuitarHasDescription">
+    <configuration name="GuitarTest.testGuitarHasDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaMusicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GuitarTest" />
+      <option name="METHOD_NAME" value="testGuitarHasDescription" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GuitarTest.testGuitarHasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaMusicShop" />
       <option name="PACKAGE_NAME" value="" />
@@ -48,6 +66,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GuitarTest.testGuitarHasDescription" />
         <item itemvalue="JUnit.GuitarTest.testGuitarHasName" />
       </list>
     </recent_temporary>
@@ -64,5 +83,16 @@
       <updated>1591362918838</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
