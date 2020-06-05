@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="445c36b6-35e2-4726-9f65-4d9bcb364281" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PianoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PianoTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,12 +40,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PianoTest.testPianoHasBuyPrice">
-    <configuration name="GuitarTest.testGuitarHasType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PianoTest.testPianoHasType">
+    <configuration name="PianoTest.testPianoForSale" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaMusicShop" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GuitarTest" />
-      <option name="METHOD_NAME" value="testGuitarHasType" />
+      <option name="MAIN_CLASS_NAME" value="PianoTest" />
+      <option name="METHOD_NAME" value="testPianoForSale" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,16 +71,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PianoTest.testPianoHasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaMusicShop" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PianoTest" />
-      <option name="METHOD_NAME" value="testPianoHasName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PianoTest.testPianoHasSellPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaMusicShop" />
       <option name="PACKAGE_NAME" value="" />
@@ -90,13 +81,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PianoTest.testPianoHasType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaMusicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PianoTest" />
+      <option name="METHOD_NAME" value="testPianoHasType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PianoTest.testPianoHasType" />
+        <item itemvalue="JUnit.PianoTest.testPianoForSale" />
         <item itemvalue="JUnit.PianoTest.testPianoHasBuyPrice" />
         <item itemvalue="JUnit.PianoTest.testPianoHasSellPrice" />
         <item itemvalue="JUnit.PianoTest.testPianoHasDescription" />
-        <item itemvalue="JUnit.PianoTest.testPianoHasName" />
-        <item itemvalue="JUnit.GuitarTest.testGuitarHasType" />
       </list>
     </recent_temporary>
   </component>
@@ -131,6 +132,22 @@
           <url>file://$PROJECT_DIR$/src/test/java/GuitarTest.java</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/PianoTest.java</url>
+          <line>17</line>
+          <properties class="PianoTest" method="testPianoHasName">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/PianoTest.java</url>
+          <line>37</line>
+          <properties class="PianoTest" method="testPianoForSale">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

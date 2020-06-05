@@ -1,4 +1,5 @@
 import instruments.piano.Piano;
+import instruments.piano.PianoType;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -34,4 +35,18 @@ public class PianoTest {
         assertEquals(125.00, piano.getBuyPrice(), 0.01);
     }
 
+    @Test
+    public void testPianoForSale(){
+        assertEquals(true,piano.getForSale());
+    }
+
+    @Test
+    public void testPianoSecondHand(){
+        assertEquals(false, piano.getSecondHand());
+    }
+
+    @Test
+    public void testPianoHasType(){
+        assertEquals(PianoType.ELECTRONIC, piano.getPianoType());
+    }
 }
