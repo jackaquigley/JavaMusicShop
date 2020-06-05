@@ -10,7 +10,7 @@ public class GuitarTest {
 
     @Before
     public void setUp(){
-        guitar = new Guitar("Fender FA-125 Dreadnought WN", "This is truly an artist's guitar. Authentic tones pour out of the dreadnought-shaped body. The Fender FA-125CE Dreadnought Electro Acoustic's nato carved neck provides a warmth to your resonance, complementing any genre you're in to. This is the perfect instrument to captivate your audience."
+        guitar = new Guitar("Fender FA-125 Dreadnought WN", "This is truly an artist's guitar. Authentic tones pour out of the dreadnought-shaped body. The Fender FA-125CE Dreadnought Electro Acoustic's nato carved neck provides a warmth to your resonance, complementing any genre you're in to. This is the perfect instrument to captivate your audience.", 99.99
         );
     }
 
@@ -22,5 +22,10 @@ public class GuitarTest {
     @Test
     public void testGuitarHasDescription() {
         assertEquals("This is truly an artist's guitar. Authentic tones pour out of the dreadnought-shaped body. The Fender FA-125CE Dreadnought Electro Acoustic's nato carved neck provides a warmth to your resonance, complementing any genre you're in to. This is the perfect instrument to captivate your audience.", guitar.getDescription());
+    }
+
+    @Test
+    public void testGuitarHasSellPrice() {
+        assertEquals(99.99, guitar.getSellPrice(), 0.1);
     }
 }
