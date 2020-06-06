@@ -15,4 +15,8 @@ public class Guitar extends InstrumentClass {
         return this.guitarType;
     }
 
+    public String play(){
+        return "guitar_sound.mp3";
+    }
+
 }

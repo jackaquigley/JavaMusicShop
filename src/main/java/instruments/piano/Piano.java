@@ -1,8 +1,9 @@
 package instruments.piano;
 
+import behaviours.IPlay;
 import instruments.InstrumentClass;
 
-public class Piano extends InstrumentClass {
+public class Piano extends InstrumentClass implements IPlay {
 
     PianoType pianoType;
 
@@ -13,5 +14,9 @@ public class Piano extends InstrumentClass {
 
     public PianoType getPianoType(){
         return this.pianoType;
+    }
+
+    public String play(){
+        return "piano_music.mp3";
     }
 }

@@ -52,4 +52,9 @@ public class GuitarTest {
     public void testGuitarHasType(){
         assertEquals(ACOUSTIC, guitar.getType());
     }
+
+    @Test
+    public void testGuitarCanBePlayed(){
+        assertEquals("guitar_sound.mp3", guitar.play());
+    }
 }

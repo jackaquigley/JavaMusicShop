@@ -49,4 +49,10 @@ public class PianoTest {
     public void testPianoHasType(){
         assertEquals(PianoType.ELECTRONIC, piano.getPianoType());
     }
+
+    @Test
+    public void testPianoCanBePlayed(){
+        assertEquals("piano_music.mp3", piano.play());
+    }
+
 }

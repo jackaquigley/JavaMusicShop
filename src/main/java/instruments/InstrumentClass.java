@@ -1,6 +1,6 @@
 package instruments;
 
-public class InstrumentClass {
+public abstract class InstrumentClass {
 
     private String name;
     private String description;
@@ -42,5 +42,5 @@ public class InstrumentClass {
         return this.secondHand;
     }
 
-
+    public abstract String play();
 }

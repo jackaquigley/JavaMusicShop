@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="445c36b6-35e2-4726-9f65-4d9bcb364281" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/InstrumentClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/InstrumentClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/piano/Piano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/piano/Piano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PianoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PianoTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,8 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -27,6 +31,12 @@
   <component name="PropertiesComponent">
     <property name="add_unversioned_files" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -40,7 +50,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PianoTest.testPianoHasType">
+  <component name="RunManager" selected="JUnit.GuitarTest.testGuitarCanBePlayed">
+    <configuration name="GuitarTest.testGuitarCanBePlayed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaMusicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GuitarTest" />
+      <option name="METHOD_NAME" value="testGuitarCanBePlayed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PianoTest.testPianoCanBePlayed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaMusicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PianoTest" />
+      <option name="METHOD_NAME" value="testPianoCanBePlayed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PianoTest.testPianoForSale" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaMusicShop" />
       <option name="PACKAGE_NAME" value="" />
@@ -61,26 +91,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PianoTest.testPianoHasDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaMusicShop" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PianoTest" />
-      <option name="METHOD_NAME" value="testPianoHasDescription" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PianoTest.testPianoHasSellPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaMusicShop" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PianoTest" />
-      <option name="METHOD_NAME" value="testPianoHasSellPrice" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PianoTest.testPianoHasType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaMusicShop" />
       <option name="PACKAGE_NAME" value="" />
@@ -93,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GuitarTest.testGuitarCanBePlayed" />
+        <item itemvalue="JUnit.PianoTest.testPianoCanBePlayed" />
         <item itemvalue="JUnit.PianoTest.testPianoHasType" />
         <item itemvalue="JUnit.PianoTest.testPianoForSale" />
         <item itemvalue="JUnit.PianoTest.testPianoHasBuyPrice" />
-        <item itemvalue="JUnit.PianoTest.testPianoHasSellPrice" />
-        <item itemvalue="JUnit.PianoTest.testPianoHasDescription" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +129,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -135,7 +147,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/PianoTest.java</url>
-          <line>17</line>
+          <line>18</line>
           <properties class="PianoTest" method="testPianoHasName">
             <option name="EMULATED" value="true" />
           </properties>
@@ -143,7 +155,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/PianoTest.java</url>
-          <line>37</line>
+          <line>38</line>
           <properties class="PianoTest" method="testPianoForSale">
             <option name="EMULATED" value="true" />
           </properties>
