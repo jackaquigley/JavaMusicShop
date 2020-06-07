@@ -21,4 +21,10 @@ public class StoreTest {
         assertEquals(0, store.doStockCount());
     }
 
+    @Test
+    public void canAddStock(){
+        store.addInstrument(piano);
+        assertEquals(1, store.doStockCount());
+    }
+
 }
