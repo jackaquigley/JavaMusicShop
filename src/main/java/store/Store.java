@@ -20,4 +20,8 @@ public class Store {
         stock.add(instrument);
     }
 
+    public void removeInstrument(){
+        stock.remove(0);
+    }
+
 }
